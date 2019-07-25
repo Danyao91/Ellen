@@ -1,1 +1,1 @@
-{"scripts":{"dev":"next","build":"next build","start":"next start"},"name":"","version":"","readme":"ERROR: No README data found!","_id":"@"}
+{"scripts":{"dev":"next","build":"next build","start":"next start"},"dependencies":{"isomorphic-unfetch":"^3.0.0"},"name":"","version":"","readme":"ERROR: No README data found!","_id":"@"}

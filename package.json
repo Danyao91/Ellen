@@ -1,7 +1,10 @@
 {
-    "scripts": {
-      "dev": "next",
-      "build": "next build",
-      "start": "next start"
-    }
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0"
+  }
 }
