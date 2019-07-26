@@ -1,5 +1,11 @@
-function Home() {
-    return <div>Welcome to Ellen Immigration Corps!</div>;
-  }
-  
-  export default Home;
+import Layout from '../components/layout';
+
+const Home = () => (
+    <Layout>
+        <div>
+            <h1>EllenSun Immigration Corp.</h1>
+        </div>
+    </Layout>
+);
+
+export default Home;
