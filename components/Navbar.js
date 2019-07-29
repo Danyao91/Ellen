@@ -10,17 +10,25 @@ const Navbar = () => (
                         <Link href="/"><a
                         className="nav-link">Home</a></Link>
                     </li>
-                    <li className="nav-item">
-                        <Link href="/service"><a
-                        className="nav-link">Service</a></Link>
+                    <li className="nav-item dropdown">
+                        <Link href="/service"><a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Service
+                        </a></Link>
+                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a className="dropdown-item" href="/visit">Visit Canada</a>
+                            <a className="dropdown-item" href="/immigration">Immigrate to Canada</a>
+                            <a className="dropdown-item" href="/work">Work in Canada</a>
+                            <a className="dropdown-item" href="/study">Study in Canada</a>
+                            <a className="dropdown-item" href="/other">Other Applications</a>
+                        </div>
                     </li>
                     <li className="nav-item">
                         <Link href="/contactus"><a
-                        className="nav-link">Contact us</a></Link>
+                        className="nav-link ">Contact us</a></Link>
                     </li>
                 </ul>
             </div>
-        ßß</div>   
+        </div>   
     </nav>
 );
 
