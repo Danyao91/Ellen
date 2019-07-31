@@ -1,6 +1,10 @@
 import Link from 'next/link';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const Navbar = () => (
+import { i18n, withTranslation } from '../i18n'
+
+const Navbar = ({ t }) => (
     <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
         <div className="container">
             <a className="navbar-brand" href="#">EllenSun Immigration Corp.</a>
@@ -8,7 +12,7 @@ const Navbar = () => (
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                         <Link href="/"><a
-                        className="nav-link">Home</a></Link>
+                        className="nav-link">{t('home')}</a></Link>
                     </li>
                     <li className="nav-item dropdown">
                         <Link href="/service"><a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -26,17 +30,23 @@ const Navbar = () => (
                         <Link href="/contactus"><a
                         className="nav-link ">Contact us</a></Link>
                     </li>
-    
-                        {/* <Link href="/"><a className="nav-link">Language</a></Link> */}
-                        <select data-theme="a" data-iconpos="right">
-                           <option value="1">English</option>
-                           <option value="2">简体中文</option>
-                        </select>
-
+                    <li className="nav-item"
+                        onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'zh' : 'en')}
+                    >
+                        <Link><a
+                            className="nav-link ">{t('change-locale')}</a></Link>
+                    </li>
                 </ul>
             </div>
         </div>   
     </nav>
 );
+Navbar.getInitialProps = async () => ({
+    namespacesRequired: ['common'],
+})
 
-export default Navbar;
+Navbar.propTypes = {
+    t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(Navbar)
