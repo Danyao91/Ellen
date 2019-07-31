@@ -26,6 +26,13 @@ const Navbar = () => (
                         <Link href="/contactus"><a
                         className="nav-link ">Contact us</a></Link>
                     </li>
+    
+                        {/* <Link href="/"><a className="nav-link">Language</a></Link> */}
+                        <select data-theme="a" data-iconpos="right">
+                           <option value="1">English</option>
+                           <option value="2">简体中文</option>
+                        </select>
+
                 </ul>
             </div>
         </div>   
