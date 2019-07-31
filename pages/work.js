@@ -1,34 +1,45 @@
 import Layout from '../components/layout';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const work = () => (
+import { i18n, withTranslation } from '../i18n'
+
+const work = ({ t }) => (
     <Layout>
         <div className="container">
             <div className="row">
             <div className="col-sm-8">
-                <h2>Work in Canada</h2>
+                <h2>{t('work')}</h2>
                 <img src="/static/work.jpg" className="d-block w-100" alt="visit" />
                 <h5></h5>
-                <h4>Work Permit includes：</h4>
-                    <li>Post-graduation Work Permit: applicant may apply after graduating from Canadian college or university.</li>
-                    <li>Spouse Work Permit: applicant may apply if the spouse is holding a valid study permit or work permit. Conditions apply.</li>
-                    <li>LMIA Work Permit: employer may apply for a LMIA which strict the employer and location, then applicant may apply for a LMIA Work Permit.</li>
-                    <li>LMIA-Exempt Work Permit: issued to professionals in NAFTA or GATS, investors, visiting professors, charity and religious workers, etc.</li>
+                <h4>{t('general#work')}</h4>
+                    <li>{t('work-1')}</li>
+                    <li>{t('work-2')}</li>
+                    <li>{t('work-3')}</li>
+                    <li>{t('work-4')}</li>
             </div>
                 <div className="col-sm-3">
-                    <h3>Service</h3>
+                    <h3>{t('service')}</h3>
                     <div className="list-group">
                         <a href="/visit" role="button" type="button" className="list-group-item list-group-item-action">
-                            Visit Canada
+                        {t('visit')}
                         </a>
-                        <a href="/immigration" role="button" type="button" className="list-group-item list-group-item-action">Immigrate to Canada</a>
-                        <a href="/work" role="button" type="button" className="list-group-item list-group-item-action active">Work in Canada</a>
-                        <a href="/study" role="button" type="button" className="list-group-item list-group-item-action">Study in Canada</a>
-                        <a href="/other" role="button" type="button" className="list-group-item list-group-item-action">Other Applications</a>
+                        <a href="/immigration" role="button" type="button" className="list-group-item list-group-item-action">{t('immigration')}</a>
+                        <a href="/work" role="button" type="button" className="list-group-item list-group-item-action active">{t('work')}</a>
+                        <a href="/study" role="button" type="button" className="list-group-item list-group-item-action">{t('study')}</a>
+                        <a href="/other" role="button" type="button" className="list-group-item list-group-item-action">{t('other')}</a>
                     </div>
                 </div>
             </div>
         </div>
     </Layout>
 );
+work.getInitialProps = async () => ({
+    namespacesRequired: ['common'],
+})
 
-export default work;
+work.propTypes = {
+    t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(work)

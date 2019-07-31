@@ -1,37 +1,48 @@
 import Layout from '../components/layout';
+import PropTypes from 'prop-types'
 
-const immigration = () => (
+import { i18n, withTranslation } from '../i18n'
+
+const immigration = ({ t }) => (
     <Layout>
         <div className="container">
             <div className="row">
             <div className="col-sm-8">
-                <h2>Immigration to Canada</h2>
+                <h2>{t('immigration')}</h2>
                 <img src="/static/immigration.jpg" className="d-block w-100" alt="visit" />
                 <h5></h5>
-                <h4>Immigration Programs include:</h4>
-                    <li>Express Entry: applicant gets a score based on the age, education level, work experience and language level. IRCC will invite the applicant to apply for immigration from the top scores.</li>
-                    <li>Provincial Nominee Programs: extra programs designed by each province to help nominees to acquire work permit and permanent residence.</li>
-                    <li>Family Sponsorship: Canadian citizen or permanent resident may sponsor their spouse, children, parents or grandparents to immigrate to Canada.</li>
-                    <li>Entrepreneur stream: applicant may invest a certain amount to Canada to acquire work permit and permanent residence.</li>
-                    <li>Self-Employed stream: applicant who is active in cultural activities may apply to immigrate to Canada, such as world class artist or athlete.</li>
-                    <li>Humanitarian & compassionate grounds: applicant who has specific situation that best to stay in Canada. This is a case-by-case ground.</li>
-                    <li>Refugee: Canada helps with the refugee protection and settlement.</li>
+                <h5>{t('detail#immigration')}</h5>
+                <h4>{t('general#immigration')}</h4>
+                    <li>{t('immigration-1')}</li>
+                    <li>{t('immigration-2')}</li>
+                    <li>{t('immigration-3')}</li>
+                    <li>{t('immigration-4')}</li>
+                    <li>{t('immigration-5')}</li>
+                    <li>{t('immigration-6')}</li>
+                    <li>{t('immigration-7')}</li>
             </div>
                 <div className="col-sm-3">
-                    <h3>Service</h3>
+                    <h3>{t('service')}</h3>
                     <div className="list-group">
                         <a href="/visit" role="button" type="button" className="list-group-item list-group-item-action">
-                            Visit Canada
+                        {t('visit')}
                         </a>
-                        <a href="/immigration" role="button" type="button" className="list-group-item list-group-item-action active">Immigrate to Canada</a>
-                        <a href="/work" role="button" type="button" className="list-group-item list-group-item-action">Work in Canada</a>
-                        <a href="/study" role="button" type="button" className="list-group-item list-group-item-action">Study in Canada</a>
-                        <a href="/other" role="button" type="button" className="list-group-item list-group-item-action">Other Applications</a>
+                        <a href="/immigration" role="button" type="button" className="list-group-item list-group-item-action active">{t('immigration')}</a>
+                        <a href="/work" role="button" type="button" className="list-group-item list-group-item-action">{t('work')}</a>
+                        <a href="/study" role="button" type="button" className="list-group-item list-group-item-action">{t('study')}</a>
+                        <a href="/other" role="button" type="button" className="list-group-item list-group-item-action">{t('other')}</a>
                     </div>
                 </div>
             </div>
         </div>
     </Layout>
 );
+immigration.getInitialProps = async () => ({
+    namespacesRequired: ['common'],
+})
 
-export default immigration;
+immigration.propTypes = {
+    t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(immigration)

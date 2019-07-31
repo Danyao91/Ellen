@@ -7,15 +7,6 @@ const Homepage = ({ t }) => (
     <React.Fragment>
       <main>
         <Layout />
-        <div>
-            <div>{t('title')}</div>
-          <button
-            type='button'
-            onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'zh' : 'en')}
-          >
-            {t('change-locale')}
-          </button>
-          </div>
           <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>

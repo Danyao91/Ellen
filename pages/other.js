@@ -1,30 +1,41 @@
 import Layout from '../components/layout';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const other = () => (
+import { i18n, withTranslation } from '../i18n'
+
+const other = ({ t }) => (
     <Layout>
         <div className="container">
             <div className="row">
             <div className="col-sm-8">
-                <h2>Other Applications</h2>
+                <h2>{t('other')}</h2>
                 {/* <img src="/static/visit.jpg" className="d-block w-100" alt="visit" /> */}
                 <h5></h5>
-                <li>We would also help with applications for Citizenship, Permanent residence card renewal, and visitor visa to other countries.</li>
+                <li>{t('other-1')}</li>
             </div>
                 <div className="col-sm-3">
-                    <h3>Service</h3>
+                    <h3>{t('service')}</h3>
                     <div className="list-group">
                         <a href="/visit" role="button" type="button" className="list-group-item list-group-item-action">
-                            Visit Canada
+                        {t('visit')}
                         </a>
-                        <a href="/immigration" role="button" type="button" className="list-group-item list-group-item-action">Immigrate to Canada</a>
-                        <a href="/work" role="button" type="button" className="list-group-item list-group-item-action">Work in Canada</a>
-                        <a href="/study" role="button" type="button" className="list-group-item list-group-item-action">Study in Canada</a>
-                        <a href="/other" role="button" type="button" className="list-group-item list-group-item-action active">Other Applications</a>
+                        <a href="/immigration" role="button" type="button" className="list-group-item list-group-item-action">{t('immigration')}</a>
+                        <a href="/work" role="button" type="button" className="list-group-item list-group-item-action">{t('work')}</a>
+                        <a href="/study" role="button" type="button" className="list-group-item list-group-item-action">{t('study')}</a>
+                        <a href="/other" role="button" type="button" className="list-group-item list-group-item-action active">{t('other')}</a>
                     </div>
                 </div>
             </div>
         </div>
     </Layout>
 );
+other.getInitialProps = async () => ({
+    namespacesRequired: ['common'],
+})
 
-export default other;
+other.propTypes = {
+    t: PropTypes.func.isRequired,
+}
+
+export default withTranslation('common')(other)
