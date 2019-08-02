@@ -315,6 +315,220 @@ Navbar.propTypes = {
 
 /***/ }),
 
+/***/ "./components/footer.js":
+/*!******************************!*\
+  !*** ./components/footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "prop-types");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../i18n */ "./i18n.js");
+/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_i18n__WEBPACK_IMPORTED_MODULE_4__);
+
+
+var _jsxFileName = "/Users/danyaowang/SideProject/Ellen/components/footer.js";
+
+ // This is our initialised `NextI18Next` instance
+
+
+
+var Footer = function Footer(_ref) {
+  var t = _ref.t;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: " p-3 mb-2 bg-light text-dark",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("footer", {
+    className: "page-footer font-small grey pt-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "container text-center text-md-left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-6 mt-md-0 mt-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h5", {
+    className: "text-uppercase",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, t('name')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Here you can use rows and columns to organize your footer content.")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-3 mb-md-0 mb-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h5", {
+    className: "text-uppercase",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, t('location')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+    className: "list-unstyled",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    href: "#!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Link 1")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-3 mb-md-0 mb-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h5", {
+    className: "text-uppercase",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, t('contact')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+    className: "list-unstyled",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    href: "#!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "Tel: +1 (613) 261-3579")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    href: "#!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "Email: Ellen25sun@gmail.com")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    href: "#!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "wechat: Canada613health")))))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "footer-copyright text-center py-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "\xA9 2019 Copyright:", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    href: "https://mdbootstrap.com/education/bootstrap/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, " MDBootstrap.com"))));
+};
+
+Footer.getInitialProps =
+/*#__PURE__*/
+Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+/*#__PURE__*/
+_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          return _context.abrupt("return", {
+            namespacesRequired: ['common']
+          });
+
+        case 1:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, _callee);
+}));
+Footer.propTypes = {
+  t: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (Object(_i18n__WEBPACK_IMPORTED_MODULE_4__["withTranslation"])('common')(Footer));
+
+/***/ }),
+
 /***/ "./components/layout.js":
 /*!******************************!*\
   !*** ./components/layout.js ***!
@@ -329,7 +543,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
 var _jsxFileName = "/Users/danyaowang/SideProject/Ellen/components/layout.js";
+
 
 
 
@@ -338,19 +554,19 @@ var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, "EllenSunImmigrationCorp."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -358,7 +574,7 @@ var Layout = function Layout(props) {
     href: "https://bootswatch.com/4/lux/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -367,7 +583,7 @@ var Layout = function Layout(props) {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -376,7 +592,7 @@ var Layout = function Layout(props) {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -385,23 +601,35 @@ var Layout = function Layout(props) {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
-  }, props.children));
+  }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -7166,159 +7394,189 @@ var Homepage = function Homepage(_ref) {
       lineNumber: 9
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    id: "carouselExampleIndicators",
-    className: "carousel slide",
-    "data-ride": "carousel",
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ol", {
-    className: "carousel-indicators",
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "col-sm-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
-    "data-target": "#carouselExampleIndicators",
-    "data-slide-to": "0",
-    className: "active",
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "card",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
-    "data-target": "#carouselExampleIndicators",
-    "data-slide-to": "1",
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
+    className: "card-img-top",
+    src: "/static/card2.jpeg",
+    alt: "Card image cap",
+    height: "300",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
-    "data-target": "#carouselExampleIndicators",
-    "data-slide-to": "2",
+  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "card-body",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "carousel-inner",
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h5", {
+    className: "card-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, t('name')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", {
+    className: "card-text",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "carousel-item active",
+  }, "EllenSun Immigration Corp. is a federally incorporated professional immigration consulting company, focused on consulting services for potential candidates who wish to visit, study, work, or immigrate to Canada. We have successfully helped many clients to get their temporary or permanent resident status in the past years. With the head office in Ottawa Ontario, we have built a great reputation in Immigration Consulting field for our professionalism and responsibility. Ms. Ellen Sun, the corporation founder, is a Regulated Canadian Immigration Consultant (RCIC) # R531517 with good standing in Immigration Consultants of Canada Regulatory Council (ICCRC), also she is a gold member # R19093 of Canadian Association of Professional Immigration Consultants (CAPIC). She was graduated from Immigration Laws, Policies and Procedures certificate program of University of British Columbia. Ms. Ellen Sun has extensively studied Canadian immigration laws and regulations, and she has always strictly followed the complicated immigration procedures, helping the clients to choose the most appropriate immigration programs. ")))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 22
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
-    src: "/static/picture1.jpg",
-    className: "d-block w-100",
-    alt: "visit",
-    width: "1100",
-    height: "650",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "carousel-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
-    src: "/static/picture2.jpg",
-    className: "d-block w-100",
-    alt: "study",
-    width: "1100",
-    height: "650",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "carousel-item",
+  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "col-sm-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
-    src: "static/picture3.jpg",
-    className: "d-block w-100",
-    alt: "work",
-    width: "1100",
-    height: "650",
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "card",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-    className: "carousel-control-prev",
-    href: "#carouselExampleIndicators",
-    role: "button",
-    "data-slide": "prev",
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
+    className: "card-img-top",
+    src: "/static/card1.jpg",
+    alt: "Card image cap",
+    height: "300",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "card-body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h5", {
+    className: "card-title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
-    className: "carousel-control-prev-icon",
-    "aria-hidden": "true",
+  }, "Regulated Canadian Immigration Consultant"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", {
+    className: "card-text",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
-    className: "sr-only",
+  }, "ICCRC\u2019s federal mandate stems from the Immigration and Refugee Protection Act (IRPA) and the Citizenship Act which require anyone providing Canadian immigration or citizenship advice or representation for a fee or other consideration to be a member in good standing of ICCRC. Exceptions are members in good standing of a law society in Canada or the Chambre des notaires du Qu\xE9bec. To become an RCIC, the candidate must:"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
-  }, "Previous")), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-    className: "carousel-control-next",
-    href: "#carouselExampleIndicators",
-    role: "button",
-    "data-slide": "next",
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
-    className: "carousel-control-next-icon",
-    "aria-hidden": "true",
+  }, t('consultant-1')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
-    className: "sr-only",
+  }, t('consultant-2')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
-  }, "Next")))));
+  }, t('consultant-3')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, t('consultant-4')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, t('consultant-5')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, t('consultant-6')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, t('consultant-7'))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "As being an RCIC, the member must:"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, t('consultant-8')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, t('consultant-9')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, t('consultant-10'))))))))));
 };
 
 Homepage.getInitialProps =
