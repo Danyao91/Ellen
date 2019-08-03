@@ -36,13 +36,13 @@ const Footer = ({ t }) => (
 
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Tel: +1 (613) 261-3579</a>
+                <a href="#!">{t('tel')}</a>
               </li>
               <li>
-                <a href="#!">Email: Ellen25sun@gmail.com</a>
+                <a href="#!">{t('email')}</a>
               </li>
               <li>
-                <a href="#!">wechat: Canada613health</a>
+                <a href="#!">{t('wechat')}</a>
               </li>
             </ul>
 

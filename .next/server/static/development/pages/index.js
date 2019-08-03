@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -459,7 +459,7 @@ var Footer = function Footer(_ref) {
       lineNumber: 39
     },
     __self: this
-  }, "Tel: +1 (613) 261-3579")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
+  }, t('tel'))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
@@ -472,7 +472,7 @@ var Footer = function Footer(_ref) {
       lineNumber: 42
     },
     __self: this
-  }, "Email: Ellen25sun@gmail.com")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
+  }, t('email'))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
@@ -485,7 +485,7 @@ var Footer = function Footer(_ref) {
       lineNumber: 45
     },
     __self: this
-  }, "wechat: Canada613health")))))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, t('wechat'))))))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "footer-copyright text-center py-3",
     __source: {
       fileName: _jsxFileName,
@@ -7446,24 +7446,24 @@ var Homepage = function Homepage(_ref) {
       lineNumber: 16
     },
     __self: this
-  }, "EllenSun Immigration Corp. is a federally incorporated professional immigration consulting company, focused on consulting services for potential candidates who wish to visit, study, work, or immigrate to Canada. We have successfully helped many clients to get their temporary or permanent resident status in the past years. With the head office in Ottawa Ontario, we have built a great reputation in Immigration Consulting field for our professionalism and responsibility. Ms. Ellen Sun, the corporation founder, is a Regulated Canadian Immigration Consultant (RCIC) # R531517 with good standing in Immigration Consultants of Canada Regulatory Council (ICCRC), also she is a gold member # R19093 of Canadian Association of Professional Immigration Consultants (CAPIC). She was graduated from Immigration Laws, Policies and Procedures certificate program of University of British Columbia. Ms. Ellen Sun has extensively studied Canadian immigration laws and regulations, and she has always strictly followed the complicated immigration procedures, helping the clients to choose the most appropriate immigration programs. ")))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h5", {
+  }, t('mainContent'))))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     className: "col-sm-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     className: "card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
@@ -7473,107 +7473,107 @@ var Homepage = function Homepage(_ref) {
     height: "300",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     className: "card-body",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h5", {
     className: "card-title",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, t('consultant')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, "Regulated Canadian Immigration Consultant"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", {
-    className: "card-text",
+  }, t('consultantContent-1')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }, "ICCRC\u2019s federal mandate stems from the Immigration and Refugee Protection Act (IRPA) and the Citizenship Act which require anyone providing Canadian immigration or citizenship advice or representation for a fee or other consideration to be a member in good standing of ICCRC. Exceptions are members in good standing of a law society in Canada or the Chambre des notaires du Qu\xE9bec. To become an RCIC, the candidate must:"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 29
     },
     __self: this
   }, t('consultant-1')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 30
     },
     __self: this
   }, t('consultant-2')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 31
     },
     __self: this
   }, t('consultant-3')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 32
     },
     __self: this
   }, t('consultant-4')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 33
     },
     __self: this
   }, t('consultant-5')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 34
     },
     __self: this
   }, t('consultant-6')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 35
     },
     __self: this
   }, t('consultant-7'))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", {
     className: "card-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 37
     },
     __self: this
-  }, "As being an RCIC, the member must:"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
+  }, t('consultantContent-2')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 39
     },
     __self: this
   }, t('consultant-8')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 40
     },
     __self: this
   }, t('consultant-9')), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 41
     },
     __self: this
   }, t('consultant-10'))))))))));
@@ -7652,7 +7652,7 @@ Homepage.propTypes = {
 
 /***/ }),
 
-/***/ 8:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
