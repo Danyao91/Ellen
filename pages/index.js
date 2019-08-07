@@ -12,8 +12,8 @@ const Homepage = ({ t }) => (
               <div className="card"> 
                 <img className="card-img-top" src="/static/card2.jpeg" alt="Card image cap" height="300"/>
                 <div className="card-body">
-                  <h5 className="card-title">{t('name')}</h5>
-                  <p className="card-text">{t('mainContent')}</p>
+                  <h3 className="card-title text-dark">{t('name')}</h3>
+                  <p className="card-text text-justify">{t('mainContent')}</p>
                   {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
               </div>
@@ -23,8 +23,8 @@ const Homepage = ({ t }) => (
             <div className="card">
             <img className="card-img-top" src="/static/card1.jpg" alt="Card image cap" height="300"/> 
               <div className="card-body">
-                <h5 className="card-title">{t('consultant')}</h5>
-                <p className="card-text">{t('consultantContent-1')}</p>
+                <h3 className="card-title text-dark">{t('consultant')}</h3>
+                <p className="card-text text-justify">{t('consultantContent-1')}</p>
                   <ul>
                     <li>{t('consultant-1')}</li>
                     <li>{t('consultant-2')}</li>

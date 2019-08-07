@@ -16,7 +16,7 @@ const Footer = ({ t }) => (
           <div className="col-md-6 mt-md-0 mt-3">
 
             <h5 className="text-uppercase">{t('name')}</h5>
-            <p>Here you can use rows and columns to organize your footer content.</p>
+            {/* <p>Here you can use rows and columns to organize your footer content.</p> */}
 
           </div>
 
