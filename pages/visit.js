@@ -12,7 +12,7 @@ const visit = ({ t }) => (
                 <h2>{t('visit')}</h2>
                 <img src="/static/visit.jpg" className="d-block w-100" alt="visit" height="400"/>
                 <h5></h5>
-                <h5>{t('detail#visit')}</h5> 
+                <h5 className="text-justify">{t('detail#visit')}</h5> 
                 <h4>{t('general#visit')}</h4>
                     <li>{t('visit-1')}</li>
                     <li>{t('visit-2')}</li>

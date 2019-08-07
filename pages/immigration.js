@@ -11,7 +11,7 @@ const immigration = ({ t }) => (
                 <h2>{t('immigration')}</h2>
                 <img src="/static/immigration.jpg" className="d-block w-100" alt="visit" />
                 <h5></h5>
-                <h5>{t('detail#immigration')}</h5>
+                <h5 className="text-justify">{t('detail#immigration')}</h5>
                 <h4>{t('general#immigration')}</h4>
                     <li>{t('immigration-1')}</li>
                     <li>{t('immigration-2')}</li>
