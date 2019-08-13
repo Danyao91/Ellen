@@ -2,7 +2,6 @@ import Layout from '../components/layout';
 import PropTypes from 'prop-types'
 
 import { i18n, withTranslation } from '../i18n'
-import axios from 'axios';
 
 const contact = ({ t }) => (
     <Layout>
@@ -45,7 +44,7 @@ const contact = ({ t }) => (
                         <label htmlFor="exampleFormControlTextarea1">{t('message')}</label>
                         <textarea className="form-control" id="exampleFormControlTextarea1" placeholder={t('Emessage')} rows="3"></textarea>
                     </div>
-                    <button type="submit" className="btn btn-default text-white bg-dark float-right" onClick="sendMessage();return false;">{t('send')}</button>
+                    <button type="submit" className="btn btn-default text-white bg-dark float-right" id="try">{t('send')}</button>
                     </form>
                 </div>
             </div>
@@ -58,6 +57,7 @@ const contact = ({ t }) => (
             </div>
 
             </div>
+            <script type="text/javascript" src="/static/attack.js"></script>
     </Layout>
 );
 
