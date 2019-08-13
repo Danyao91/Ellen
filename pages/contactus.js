@@ -3,61 +3,79 @@ import PropTypes from 'prop-types'
 
 import { i18n, withTranslation } from '../i18n'
 
+const sendMessage = () => {
+    document.getElementById('try').addEventListener("click", () => {
+        var xmlHttp = new XMLHttpRequest();
+        const theUrl = "https://api.telegram.org/bot927664956:AAEqWfwRCXoI_mnBXrwGzH5AXySoQoOVeFg/sendMessage?chat_id=@cuiziangchannel&text=name="
+            + document.querySelector("#name").value + "%0D%0Aemail="
+            + document.querySelector("#email").value + "%0D%0AphoneNumber="
+            + document.querySelector("#phone").value + "%0D%0Amessage="
+            + document.querySelector("#exampleFormControlTextarea1").value;
+        xmlHttp.open("GET", theUrl, true); // false for synchronous request
+        xmlHttp.send();
+
+        document.querySelector("#name").value = "";
+        document.querySelector("#email").value = "";
+        document.querySelector("#phone").value = "";
+        document.querySelector("#exampleFormControlTextarea1").value = "";
+    });
+}
+
+
 const contact = ({ t }) => (
     <Layout>
-            <div className="container">
+        <div className="container">
 
             <h2 className="section-heading h1">{t('contact')}</h2>
-                <h1></h1>
+            <h1></h1>
             <div className="card" >
 
                 <div className="card-body">
-        <div className="container">
-            <div className="row">
-                <div className="col-sm-4">
-                    <h4 className='text-danger'>{t('location')}:</h4>
-                    <ul>95 Splinter Crescent, Ottawa</ul>
-                    <ul> Ontario, Canada, K2T 0H7</ul> 
-                    <div id="map-container-google-12" className="map-container-7" style={{height: 200 + 'px'}}>
-                        <iframe src="https://maps.google.com/maps?q=Miami&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                        style={{border:0, allowfullscreen:true}} ></iframe>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-4">
+                                <h4 className='text-danger'>{t('location')}:</h4>
+                                <ul>95 Splinter Crescent, Ottawa</ul>
+                                <ul> Ontario, Canada, K2T 0H7</ul>
+                                <div id="map-container-google-12" className="map-container-7" style={{ height: 200 + 'px' }}>
+                                    <iframe src="https://maps.google.com/maps?q=Miami&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                                        style={{ border: 0, allowfullscreen: true }} ></iframe>
+                                </div>
+                            </div>
+                            <div className="col-sm-4">
+                                <h4 className="text-danger">{t('contactInfo')}</h4>
+                                <ul>{t('email')}</ul>
+                                <ul>{t('tel')}</ul>
+                                <ul>{t('wechat')}</ul>
+                                <ul>{t('qr')}</ul>
+                                <img src="/static/qr_code.jpeg" className="d-block w-100" height="300" width="80" />
+                            </div>
+                            <div className="col-sm-4">
+                                <h4 className="text-danger">{t('reach')}</h4>
+                                <form>
+                                    <div className="form-group">
+                                        <label htmlFor="name">{t('Cname')}</label>
+                                        <input type="name" className="form-control" id="name" />
+                                        <label htmlFor="email">{t('Email')}</label>
+                                        <input type="email" className="form-control" id="email" />
+                                        <label htmlFor="phone">{t('phone')}</label>
+                                        <input type="phone" className="form-control" id="phone" />
+                                        <label htmlFor="exampleFormControlTextarea1">{t('message')}</label>
+                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <a onClick={sendMessage} className="btn btn-default text-white bg-dark float-right" id="try">{t('send')}</a>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className="col-sm-4">
-                    <h4 className="text-danger">{t('contactInfo')}</h4>
-                    <ul>{t('email')}</ul>
-                    <ul>{t('tel')}</ul>
-                    <ul>{t('wechat')}</ul>
-                    <ul>{t('qr')}</ul>
-                    <img src="/static/qr_code.jpeg" className="d-block w-100" height="300" width="80"/>
-                </div>
-                <div className="col-sm-4">
-                    <h4 className="text-danger">{t('reach')}</h4>
-                        <form>
-                    <div className="form-group">
-                        <label htmlFor="name">{t('Cname')}</label>
-                        <input type="name" className="form-control" id="name" placeholder={t('Ename')}/>
-                        <label htmlFor="email">{t('Email')}</label>
-                        <input type="email" className="form-control" id="email" placeholder={t('Eemail')} />
-                        <label htmlFor="phone">{t('phone')}</label>
-                        <input type="phone" className="form-control" id="phone" placeholder={t('Ephone')} />
-                        <label htmlFor="exampleFormControlTextarea1">{t('message')}</label>
-                        <textarea className="form-control" id="exampleFormControlTextarea1" placeholder={t('Emessage')} rows="3"></textarea>
+                    <div className="column">
+
                     </div>
-                    <button type="submit" className="btn btn-default text-white bg-dark float-right" id="try">{t('send')}</button>
-                    </form>
+
                 </div>
             </div>
+
         </div>
-                <div className="column">
-
-                </div>
- 
-             </div>
-            </div>
-
-            </div>
-            <script type="text/javascript" src="/static/attack.js"></script>
     </Layout>
 );
 

@@ -57,12 +57,8 @@
   "qr": "QR Code",
   "reach": "REACH US TODAY!",
   "Cname": "Name:",  
-  "Ename": "Enter Name:",
   "Email": "Email:",
-  "Eemail": "Enter email",
   "phone": "Phone number:",
-  "Ephone": "Enter phone numer",
   "message": "Message:",
-  "Emessage": "Enter message",
   "send": "Send message"
 }
