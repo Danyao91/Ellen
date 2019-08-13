@@ -2,12 +2,13 @@ import Layout from '../components/layout';
 import PropTypes from 'prop-types'
 
 import { i18n, withTranslation } from '../i18n'
+import axios from 'axios';
 
 const contact = ({ t }) => (
     <Layout>
             <div className="container">
 
-            <h2 class="section-heading h1">{t('contact')}</h2>
+            <h2 className="section-heading h1">{t('contact')}</h2>
                 <h1></h1>
             <div className="card" >
 
@@ -35,16 +36,16 @@ const contact = ({ t }) => (
                     <h4 className="text-danger">{t('reach')}</h4>
                         <form>
                     <div className="form-group">
-                        <label for="name">{t('Cname')}</label>
+                        <label htmlFor="name">{t('Cname')}</label>
                         <input type="name" className="form-control" id="name" placeholder={t('Ename')}/>
-                        <label for="email">{t('Email')}</label>
+                        <label htmlFor="email">{t('Email')}</label>
                         <input type="email" className="form-control" id="email" placeholder={t('Eemail')} />
-                        <label for="phone">{t('phone')}</label>
+                        <label htmlFor="phone">{t('phone')}</label>
                         <input type="phone" className="form-control" id="phone" placeholder={t('Ephone')} />
-                        <label for="exampleFormControlTextarea1">{t('message')}</label>
+                        <label htmlFor="exampleFormControlTextarea1">{t('message')}</label>
                         <textarea className="form-control" id="exampleFormControlTextarea1" placeholder={t('Emessage')} rows="3"></textarea>
                     </div>
-                    <button type="submit" className="btn btn-default text-white bg-dark float-right">{t('send')}</button>
+                    <button type="submit" className="btn btn-default text-white bg-dark float-right" onClick="sendMessage();return false;">{t('send')}</button>
                     </form>
                 </div>
             </div>
@@ -59,6 +60,11 @@ const contact = ({ t }) => (
             </div>
     </Layout>
 );
+
+// axios.get(`https://api.telegram.org/bot927664956:AAEqWfwRCXoI_mnBXrwGzH5AXySoQoOVeFg/sendMessage?chat_id=@cuiziangchannel&text=123`)
+// .then(res => {
+//     console.log(res)
+// });
 
 contact.getInitialProps = async () => ({
     namespacesRequired: ['common'],

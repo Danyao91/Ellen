@@ -15,10 +15,6 @@
     "/contactus": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/other": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }
