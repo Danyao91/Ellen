@@ -17,7 +17,6 @@ const Layout = (props) => (
         </div>
         <h1></h1>
         <Footer />
-        <script type="text/javascript" src="/static/attack.js"></script>
     </div>
 );
 
