@@ -4,34 +4,34 @@ import PropTypes from 'prop-types'
 import { i18n, withTranslation } from '../i18n'
 import { callbackify } from 'util';
 
-const sendMessage = () => {
-    // document.getElementById('try').addEventListener("click", () => {
-        var xmlHttp = new XMLHttpRequest();
-        const theUrl = "https://api.telegram.org/bot927664956:AAEqWfwRCXoI_mnBXrwGzH5AXySoQoOVeFg/sendMessage?chat_id=@cuiziangchannel&text=name: "
-            + document.querySelector("#name").value + "%0D%0Aemail: "
-            + document.querySelector("#email").value + "%0D%0AphoneNumber: "
-            + document.querySelector("#phone").value + "%0D%0Amessage: "
-            + document.querySelector("#exampleFormControlTextarea1").value;
+// const sendMessage = () => {
+//     // document.getElementById('try').addEventListener("click", () => {
+//         var xmlHttp = new XMLHttpRequest();
+//         const theUrl = "https://api.telegram.org/bot927664956:AAEqWfwRCXoI_mnBXrwGzH5AXySoQoOVeFg/sendMessage?chat_id=@cuiziangchannel&text=name: "
+//             + document.querySelector("#name").value + "%0D%0Aemail: "
+//             + document.querySelector("#email").value + "%0D%0AphoneNumber: "
+//             + document.querySelector("#phone").value + "%0D%0Amessage: "
+//             + document.querySelector("#exampleFormControlTextarea1").value;
 
-        xmlHttp.onreadystatechange = () => {
-            if (xmlHttp.readyState === 4) {
-                callback(xmlHttp.response);         
-                }
-              }
+//         xmlHttp.onreadystatechange = () => {
+//             if (xmlHttp.readyState === 4) {
+//                 callback(xmlHttp.response);         
+//                 }
+//               }
 
-        xmlHttp.open("GET", theUrl, true); // false for synchronous request
-        xmlHttp.send();
+//         xmlHttp.open("GET", theUrl, true); // false for synchronous request
+//         xmlHttp.send();
 
-        document.querySelector("#name").value = "";
-        document.querySelector("#email").value = "";
-        document.querySelector("#phone").value = "";
-        document.querySelector("#exampleFormControlTextarea1").value = "";
-    // });
-}
+//         document.querySelector("#name").value = "";
+//         document.querySelector("#email").value = "";
+//         document.querySelector("#phone").value = "";
+//         document.querySelector("#exampleFormControlTextarea1").value = "";
+//     // });
+// }
 
-const callback = () => {
-    alert("Message has been successfully sent. Please wait for the response patiently. Thanks!");
-}
+// const callback = () => {
+//     alert("Message has been successfully sent. Please wait for the response patiently. Thanks!");
+// }
 
 const contact = ({ t }) => (
     <Layout>
