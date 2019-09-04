@@ -20,7 +20,23 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/immigration": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/other": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/study": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/visit": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

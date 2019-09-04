@@ -46,8 +46,8 @@ const contact = ({ t }) => (
                         <div className="row">
                             <div className="col-sm-4">
                                 <h4 className='text-danger'>{t('location')}:</h4>
-                                <ul>95 Splinter Crescent, Ottawa</ul>
-                                <ul> Ontario, Canada, K2T 0H7</ul>
+                                {/* <ul>95 Splinter Crescent, Ottawa</ul>
+                                <ul> Ontario, Canada, K2T 0H7</ul> */}
                                 <div id="map-container-google-12" className="map-container-7" style={{ height: 200 + 'px' }}>
                                     <iframe src="https://maps.google.com/maps?q=Miami&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                                         style={{ border: 0, allowfullscreen: true }} ></iframe>
@@ -55,15 +55,16 @@ const contact = ({ t }) => (
                             </div>
                             <div className="col-sm-4">
                                 <h4 className="text-danger">{t('contactInfo')}</h4>
+                                <img src="/static/wechat.jpg" className="d-block w-100" height="280" width="70" />
                                 <ul>{t('email')}</ul>
                                 <ul>{t('tel')}</ul>
                                 <ul>{t('wechat')}</ul>
                                 <ul>{t('qr')}</ul>
-                                <img src="/static/qr_code.jpeg" className="d-block w-100" height="300" width="80" />
                             </div>
                             <div className="col-sm-4">
                                 <h4 className="text-danger">{t('reach')}</h4>
-                                <form>
+                                <img src="/static/official.jpg" className="d-block w-100" height="280" width="70" />
+                                {/* <form>
                                     <div className="form-group">
                                         <label htmlFor="name">{t('Cname')}</label>
                                         <input type="name" className="form-control" id="name" />
@@ -75,7 +76,7 @@ const contact = ({ t }) => (
                                         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
                                     <a onClick={sendMessage} className="btn btn-default text-white bg-dark float-right" id="try">{t('send')}</a>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>
