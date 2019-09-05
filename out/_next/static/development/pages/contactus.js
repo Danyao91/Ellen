@@ -37,149 +37,79 @@ var Navbar = function Navbar(_ref) {
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "navbar-brand",
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, t('name')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "collapse navbar-collapse",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("ul", {
     className: "navbar-nav ml-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, t('home')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
-    className: "nav-item dropdown",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    className: "nav-link dropdown-toggle",
-    id: "navbarDropdown",
-    role: "button",
-    "data-toggle": "dropdown",
-    "aria-haspopup": "true",
-    "aria-expanded": "false",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, t('service')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "dropdown-menu",
-    "aria-labelledby": "navbarDropdown",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "/visit",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, t('visit')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "/immigration",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, t('immigration')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "/work",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, t('work')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "/study",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, t('study')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    className: "dropdown-item",
-    href: "/other",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, t('other')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/contactus",
+    href: "/visit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: this
-  }, t('contact')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+  }, t('visit')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
-    onClick: function onClick() {
-      return _i18n__WEBPACK_IMPORTED_MODULE_5__["i18n"].changeLanguage(_i18n__WEBPACK_IMPORTED_MODULE_5__["i18n"].language === 'en' ? 'zh' : 'en');
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
     },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/immigration",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -189,10 +119,111 @@ var Navbar = function Navbar(_ref) {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, t('immigration')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, t('change-locale')))))));
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/work",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
+    className: "nav-link ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, t('work')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/study",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
+    className: "nav-link ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, t('study')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/other",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
+    className: "nav-link ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, t('other')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/contactus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
+    className: "nav-link ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, t('contact')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+    className: "nav-item",
+    onClick: function onClick() {
+      return _i18n__WEBPACK_IMPORTED_MODULE_5__["i18n"].changeLanguage(_i18n__WEBPACK_IMPORTED_MODULE_5__["i18n"].language === 'en' ? 'zh' : 'en');
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
+    className: "nav-link ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, t('change-locale'))))));
 };
 
 Navbar.getInitialProps =
@@ -547,13 +578,12 @@ var Layout = function Layout(props) {
 "use strict";
 
 
-var localeSubpaths = __webpack_require__(/*! next/config */ "./node_modules/next-server/dist/lib/runtime-config.js")["default"]().publicRuntimeConfig.localeSubpaths;
-
+// const {localeSubpaths} = require('next/config').default().publicRuntimeConfig
 var NextI18Next = __webpack_require__(/*! next-i18next */ "./node_modules/next-i18next/dist/commonjs/index.js")["default"];
 
 module.exports = new NextI18Next({
-  otherLanguages: ['zh'],
-  localeSubpaths: localeSubpaths
+  otherLanguages: ['zh'] // localeSubpaths,
+
 });
 
 /***/ }),
@@ -16525,37 +16555,6 @@ exports.getRouteRegex = getRouteRegex;
 
 /***/ }),
 
-/***/ "./node_modules/next-server/dist/lib/runtime-config.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/next-server/dist/lib/runtime-config.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
-
-(0, _defineProperty["default"])(exports, "__esModule", {
-  value: true
-});
-var runtimeConfig;
-
-exports["default"] = function () {
-  return runtimeConfig;
-};
-
-function setConfig(configValue) {
-  runtimeConfig = configValue;
-}
-
-exports.setConfig = setConfig;
-
-/***/ }),
-
 /***/ "./node_modules/next-server/dist/lib/side-effect.js":
 /*!**********************************************************!*\
   !*** ./node_modules/next-server/dist/lib/side-effect.js ***!
@@ -23367,31 +23366,30 @@ var _jsxFileName = "/Users/danyaowang/SideProject/Ellen/pages/contactus.js";
 
 
 
-
-
-var sendMessage = function sendMessage() {
-  // document.getElementById('try').addEventListener("click", () => {
-  var xmlHttp = new XMLHttpRequest();
-  var theUrl = "https://api.telegram.org/bot927664956:AAEqWfwRCXoI_mnBXrwGzH5AXySoQoOVeFg/sendMessage?chat_id=@cuiziangchannel&text=name: " + document.querySelector("#name").value + "%0D%0Aemail: " + document.querySelector("#email").value + "%0D%0AphoneNumber: " + document.querySelector("#phone").value + "%0D%0Amessage: " + document.querySelector("#exampleFormControlTextarea1").value;
-
-  xmlHttp.onreadystatechange = function () {
-    if (xmlHttp.readyState === 4) {
-      callback(xmlHttp.response);
-    }
-  };
-
-  xmlHttp.open("GET", theUrl, true); // false for synchronous request
-
-  xmlHttp.send();
-  document.querySelector("#name").value = "";
-  document.querySelector("#email").value = "";
-  document.querySelector("#phone").value = "";
-  document.querySelector("#exampleFormControlTextarea1").value = ""; // });
-};
-
-var callback = function callback() {
-  alert("Message has been successfully sent. Please wait for the response patiently. Thanks!");
-};
+ // const sendMessage = () => {
+//     // document.getElementById('try').addEventListener("click", () => {
+//         var xmlHttp = new XMLHttpRequest();
+//         const theUrl = "https://api.telegram.org/bot927664956:AAEqWfwRCXoI_mnBXrwGzH5AXySoQoOVeFg/sendMessage?chat_id=@cuiziangchannel&text=name: "
+//             + document.querySelector("#name").value + "%0D%0Aemail: "
+//             + document.querySelector("#email").value + "%0D%0AphoneNumber: "
+//             + document.querySelector("#phone").value + "%0D%0Amessage: "
+//             + document.querySelector("#exampleFormControlTextarea1").value;
+//         xmlHttp.onreadystatechange = () => {
+//             if (xmlHttp.readyState === 4) {
+//                 callback(xmlHttp.response);         
+//                 }
+//               }
+//         xmlHttp.open("GET", theUrl, true); // false for synchronous request
+//         xmlHttp.send();
+//         document.querySelector("#name").value = "";
+//         document.querySelector("#email").value = "";
+//         document.querySelector("#phone").value = "";
+//         document.querySelector("#exampleFormControlTextarea1").value = "";
+//     // });
+// }
+// const callback = () => {
+//     alert("Message has been successfully sent. Please wait for the response patiently. Thanks!");
+// }
 
 var contact = function contact(_ref) {
   var t = _ref.t;
@@ -23463,19 +23461,7 @@ var contact = function contact(_ref) {
       lineNumber: 48
     },
     __self: this
-  }, t('location'), ":"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "95 Splinter Crescent, Ottawa"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, " Ontario, Canada, K2T 0H7"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, t('location'), ":"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     id: "map-container-google-12",
     className: "map-container-7",
     style: {
@@ -23512,41 +23498,41 @@ var contact = function contact(_ref) {
       lineNumber: 57
     },
     __self: this
-  }, t('contactInfo')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+  }, t('contactInfo')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: "/static/wechat.jpg",
+    className: "d-block w-100",
+    height: "280",
+    width: "70",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58
     },
     __self: this
-  }, t('email')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }, t('tel')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+  }, t('email')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, t('wechat')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+  }, t('tel')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 61
     },
     __self: this
-  }, t('qr')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
-    src: "/static/qr_code.jpeg",
-    className: "d-block w-100",
-    height: "300",
-    width: "80",
+  }, t('wechat')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, t('qr'))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col-sm-4",
     __source: {
       fileName: _jsxFileName,
@@ -23560,97 +23546,21 @@ var contact = function contact(_ref) {
       lineNumber: 65
     },
     __self: this
-  }, t('reach')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form", {
+  }, t('reach')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: "/static/official.jpg",
+    className: "d-block w-100",
+    height: "280",
+    width: "70",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "form-group",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", {
-    htmlFor: "name",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, t('Cname')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
-    type: "name",
-    className: "form-control",
-    id: "name",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", {
-    htmlFor: "email",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, t('Email')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
-    type: "email",
-    className: "form-control",
-    id: "email",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", {
-    htmlFor: "phone",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, t('phone')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
-    type: "phone",
-    className: "form-control",
-    id: "phone",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", {
-    htmlFor: "exampleFormControlTextarea1",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, t('message')), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("textarea", {
-    className: "form-control",
-    id: "exampleFormControlTextarea1",
-    rows: "3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-    onClick: sendMessage,
-    className: "btn btn-default text-white bg-dark float-right",
-    id: "try",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }, t('send')))))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  })))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 83
     },
     __self: this
   })))));
@@ -23687,7 +23597,7 @@ contact.propTypes = {
 
 /***/ }),
 
-/***/ 0:
+/***/ 6:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontactus&absolutePagePath=%2FUsers%2Fdanyaowang%2FSideProject%2FEllen%2Fpages%2Fcontactus.js ***!
   \********************************************************************************************************************************************/
@@ -23710,5 +23620,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=contactus.js.map

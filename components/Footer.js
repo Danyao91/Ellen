@@ -26,7 +26,7 @@ const Footer = ({ t }) => (
 
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
+                <a href="#!">1509 merivale Road</a>
               </li>
             </ul>
 
@@ -51,9 +51,8 @@ const Footer = ({ t }) => (
 
       </div>
 
-      <div className="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-      </div>
+      {/* <div className="footer-copyright text-center py-3">© 2019 Copyright
+      </div> */}
 
     </footer>
   </div>

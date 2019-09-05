@@ -6,6 +6,7 @@ import { i18n, withTranslation } from '../i18n'
 
 const Navbar = ({ t }) => (
     <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
+        <div className="container">
             <a className="navbar-brand" href="#">{t('name')}</a>
             <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ml-auto">
@@ -27,23 +28,23 @@ const Navbar = ({ t }) => (
                     </li> */}
                     <li className="nav-item">
                         <Link href="/visit"><a
-                        className="nav-link ">{t('visit')}</a></Link>
+                        className="nav-link ">{t('visit-N')}</a></Link>
                     </li>
                     <li className="nav-item">
                         <Link href="/immigration"><a
-                        className="nav-link ">{t('immigration')}</a></Link>
+                        className="nav-link ">{t('immigration-N')}</a></Link>
                     </li>
                     <li className="nav-item">
                         <Link href="/work"><a
-                        className="nav-link ">{t('work')}</a></Link>
+                        className="nav-link ">{t('work-N')}</a></Link>
                     </li>
                     <li className="nav-item">
                         <Link href="/study"><a
-                        className="nav-link ">{t('study')}</a></Link>
+                        className="nav-link ">{t('study-N')}</a></Link>
                     </li>
                     <li className="nav-item">
                         <Link href="/other"><a
-                        className="nav-link ">{t('other')}</a></Link>
+                        className="nav-link ">{t('other-N')}</a></Link>
                     </li>
                     <li className="nav-item">
                         <Link href="/contactus"><a
@@ -52,10 +53,11 @@ const Navbar = ({ t }) => (
                     <li className="nav-item"
                         onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'zh' : 'en')}
                     >
-                        <a className="nav-link ">{t('change-locale')}</a>
+                        <a className="nav-link">{t('change-locale')}</a>
                     </li>
                 </ul>
             </div>
+        </div>
     </nav>
 );
 Navbar.getInitialProps = async () => ({
