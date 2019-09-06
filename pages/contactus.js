@@ -37,7 +37,7 @@ const contact = ({ t }) => (
     <Layout>
         <div className="container">
 
-            <h2 className="section-heading h1">{t('contact')}</h2>
+            <h2 className="card-title text-dark">{t('contact')}</h2>
             <h1></h1>
             <div className="card" >
 
@@ -47,20 +47,20 @@ const contact = ({ t }) => (
                             <div className="col-sm-4">
                                 <h4 className='text-danger'>{t('location')}:</h4>
                                 <h1></h1>
+                                <ul>1509 merivale Road, Ottawa</ul>
+                                <ul> Ontario, Canada, K2G 3J3</ul>
                                 <div id="map-container-google-12" className="map-container-7" style={{ height: 200 + 'px' }}>
                                     <iframe src="https://maps.google.com/maps?q=1509%20merivale%20rd&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                                         style={{ border: 0, allowfullscreen: true }} ></iframe>
                                 </div>
-                                <ul>1509 merivale Road, Ottawa</ul>
-                                <ul> Ontario, Canada, K2G 3J3</ul>
                             </div>
                             <div className="col-sm-4">
                                 <h4 className="text-danger">{t('contactInfo')}</h4>
-                                <img src="/static/wechat.jpg" className="d-block w-100" height="280" width="70" />
                                 <ul>{t('email')}</ul>
                                 <ul>{t('tel')}</ul>
                                 <ul>{t('wechat')}</ul>
                                 <ul>{t('qr')}</ul>
+                                <img src="/static/wechat.jpg" className="d-block w-100" height="280" width="70" />
                             </div>
                             <div className="col-sm-4">
                                 <h4 className="text-danger">{t('reach')}</h4>

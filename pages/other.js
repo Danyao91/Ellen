@@ -9,13 +9,17 @@ const other = ({ t }) => (
         <div className="container">
             <div className="row">
             <div className="col-sm-8">
-                <h2>{t('other')}</h2>
+            <h2 className="card-title text-dark">{t('other')}</h2>
+            <div className="card">
+              <div className="card-body">
                 {/* <img src="/static/visit.jpg" className="d-block w-100" alt="visit" /> */}
                 <h5></h5>
                 <li>{t('other-1')}</li>
+                </div>
+                </div>
             </div>
             <div className="col-sm-4">
-                <h3>{t('scan')}</h3>
+                <h3 className="card-title text-dark">{t('scan')}</h3>
                 {/* <div className="col-sm-3">
                     <h3>{t('service')}</h3>
                     <div className="list-group">

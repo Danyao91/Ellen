@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import { i18n, withTranslation } from '../i18n'
 
 const Footer = ({ t }) => (
-  <div className= " p-3 mb-2 bg-light text-dark">
+  <div className= "p-3 mb-2 bg-light text-dark">
     <footer className="page-footer font-small grey pt-4">
 
       <div className="container text-center text-md-left">

@@ -9,8 +9,10 @@ const study = ({ t }) => (
         <div className="container">
             <div className="row">
             <div className="col-sm-8">
-                <h2>{t('study')}</h2>
-                <img src="/static/study.jpeg" className="d-block w-100" alt="visit" height="400"/>
+            <h2 className="card-title text-dark">{t('study')}</h2>
+            <div className="card">
+            <img className="card-img-top" src="/static/study.jpeg" alt="Card image cap" height="300"/> 
+              <div className="card-body">
                 <h4>{t('general#study')}</h4>
                     <li>{t('study-1')}</li>
                     <li>{t('study-2')}</li>
@@ -18,9 +20,11 @@ const study = ({ t }) => (
                     <h5></h5>
                 <h5>{t('school')}</h5>
                 <li>{t('school-1')}</li>
+                </div>
+                </div>
             </div>
             <div className="col-sm-4">
-            <h3>{t('scan')}</h3>
+            <h3 className="card-title text-dark">{t('scan')}</h3>
                 {/* <div className="col-sm-3">
                     <h3>{t('service')}</h3>
                     <div className="list-group">

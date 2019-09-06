@@ -9,18 +9,22 @@ const visit = ({ t }) => (
         <div className="container">
             <div className="row">
             <div className="col-sm-8">
-                <h2>{t('visit')}</h2>
-                <img src="/static/visit.jpg" className="d-block w-100" alt="visit" height="400"/>
+            <h2 className="card-title text-dark">{t('visit')}</h2>
+            <div className="card">
+            <img className="card-img-top" src="/static/visit.jpg" alt="Card image cap" height="300"/> 
+              <div className="card-body">
                 <h5></h5>
-                <h5 className="text-justify">{t('detail#visit')}</h5> 
+                <h5 className="card-text text-justify">{t('detail#visit')}</h5> 
                 <h4>{t('general#visit')}</h4>
                     <li>{t('visit-1')}</li>
                     <li>{t('visit-2')}</li>
                     <li>{t('visit-3')}</li>
                     <li>{t('visit-4')}</li>
+                    </div>
+                </div>
             </div>
             <div className="col-sm-4">
-            <h3>{t('scan')}</h3>
+            <h3 className="card-title text-dark">{t('scan')}</h3>
                 {/* <div className="col-sm-3">
                     <h3>{t('service')}</h3>
                     <div className="list-group">

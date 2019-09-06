@@ -37,173 +37,180 @@ var Navbar = function Navbar(_ref) {
       lineNumber: 8
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "navbar-brand",
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, t('name')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "collapse navbar-collapse",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("ul", {
     className: "navbar-nav ml-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, t('home')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/visit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
-  }, t('visit')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+  }, t('visit-N')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/immigration",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
-  }, t('immigration')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+  }, t('immigration-N')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/work",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
-  }, t('work')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+  }, t('work-N')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/study",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: this
-  }, t('study')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+  }, t('study-N')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/other",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: this
-  }, t('other')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+  }, t('other-N')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/contactus",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     },
     __self: this
   }, t('contact')))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
@@ -213,17 +220,17 @@ var Navbar = function Navbar(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    className: "nav-link ",
+    className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 56
     },
     __self: this
-  }, t('change-locale'))))));
+  }, t('change-locale')))))));
 };
 
 Navbar.getInitialProps =
@@ -357,7 +364,7 @@ var Footer = function Footer(_ref) {
       lineNumber: 29
     },
     __self: this
-  }, "Link 1")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, "1509 merivale Road")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col-md-3 mb-md-0 mb-3",
     __source: {
       fileName: _jsxFileName,
@@ -417,21 +424,7 @@ var Footer = function Footer(_ref) {
       lineNumber: 45
     },
     __self: this
-  }, t('wechat'))))))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "footer-copyright text-center py-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, "\xA9 2019 Copyright:", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-    href: "https://mdbootstrap.com/education/bootstrap/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, " MDBootstrap.com"))));
+  }, t('wechat')))))))));
 };
 
 Footer.getInitialProps =
@@ -536,29 +529,38 @@ var Layout = function Layout(props) {
       lineNumber: 12
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    type: "text/css",
+    href: "/static/EllenCss.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }));
@@ -23413,7 +23415,7 @@ var other = function other(_ref) {
     },
     __self: this
   }, t('other-1'))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "col-sm-3",
+    className: "col-sm-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -23425,64 +23427,133 @@ var other = function other(_ref) {
       lineNumber: 18
     },
     __self: this
-  }, t('service')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "list-group",
+  }, t('scan')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    id: "carouselExampleIndicators",
+    className: "carousel slide",
+    "data-ride": "carousel",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 31
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    href: "/visit",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("ol", {
+    className: "carousel-indicators",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+    "data-target": "#carouselExampleIndicators",
+    "data-slide-to": "0",
+    className: "active",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
+    "data-target": "#carouselExampleIndicators",
+    "data-slide-to": "1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "carousel-inner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "carousel-item active",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+    src: "/static/wechat.jpg",
+    className: "d-block w-100",
+    alt: "visit",
+    width: "280",
+    height: "300",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "carousel-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
+    src: "/static/official.jpg",
+    className: "d-block w-100",
+    alt: "study",
+    width: "280",
+    height: "300",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
+    className: "carousel-control-prev",
+    href: "#carouselExampleIndicators",
     role: "button",
-    type: "button",
-    className: "list-group-item list-group-item-action",
+    "data-slide": "prev",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 44
     },
     __self: this
-  }, t('visit')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    href: "/immigration",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
+    className: "carousel-control-prev-icon",
+    "aria-hidden": "true",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
+    className: "sr-only",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Previous")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
+    className: "carousel-control-next",
+    href: "#carouselExampleIndicators",
     role: "button",
-    type: "button",
-    className: "list-group-item list-group-item-action",
+    "data-slide": "next",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 48
     },
     __self: this
-  }, t('immigration')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    href: "/work",
-    role: "button",
-    type: "button",
-    className: "list-group-item list-group-item-action",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
+    className: "carousel-control-next-icon",
+    "aria-hidden": "true",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 49
     },
     __self: this
-  }, t('work')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    href: "/study",
-    role: "button",
-    type: "button",
-    className: "list-group-item list-group-item-action",
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
+    className: "sr-only",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 50
     },
     __self: this
-  }, t('study')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("a", {
-    href: "/other",
-    role: "button",
-    type: "button",
-    className: "list-group-item list-group-item-action active",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, t('other')))))));
+  }, "Next")))))));
 };
 
 other.getInitialProps =
