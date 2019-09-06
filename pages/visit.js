@@ -14,8 +14,8 @@ const visit = ({ t }) => (
             <img className="card-img-top" src="/static/visit.jpg" alt="Card image cap" height="300"/> 
               <div className="card-body">
                 <h5></h5>
-                <h5 className="card-text text-justify">{t('detail#visit')}</h5> 
-                <h4>{t('general#visit')}</h4>
+                <h5 className="card-text title-name text-justify">{t('detail#visit')}</h5> 
+                <h4 className="title-name">{t('general#visit')}</h4>
                     <li>{t('visit-1')}</li>
                     <li>{t('visit-2')}</li>
                     <li>{t('visit-3')}</li>

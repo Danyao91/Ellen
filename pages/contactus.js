@@ -45,7 +45,7 @@ const contact = ({ t }) => (
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-4">
-                                <h4 className='text-danger'>{t('location')}:</h4>
+                                <h4 className='title-name navbar-brand'>{t('location')}:</h4>
                                 <h1></h1>
                                 <ul>1509 merivale Road, Ottawa</ul>
                                 <ul> Ontario, Canada, K2G 3J3</ul>
@@ -55,7 +55,7 @@ const contact = ({ t }) => (
                                 </div>
                             </div>
                             <div className="col-sm-4">
-                                <h4 className="text-danger">{t('contactInfo')}</h4>
+                                <h4 className="title-name navbar-brand">{t('contactInfo')}</h4>
                                 <ul>{t('email')}</ul>
                                 <ul>{t('tel')}</ul>
                                 <ul>{t('wechat')}</ul>
@@ -63,7 +63,7 @@ const contact = ({ t }) => (
                                 <img src="/static/wechat.jpg" className="d-block w-100" height="280" width="70" />
                             </div>
                             <div className="col-sm-4">
-                                <h4 className="text-danger">{t('reach')}</h4>
+                                <h4 className="title-name navbar-brand">{t('reach')}</h4>
                                 <img src="/static/official.jpg" className="d-block w-100" height="280" width="70" />
                                 {/* <form>
                                     <div className="form-group">

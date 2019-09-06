@@ -13,8 +13,8 @@ const immigration = ({ t }) => (
             <img className="card-img-top" src="/static/immigration.jpg" alt="Card image cap" height="300"/> 
               <div className="card-body">
                 <h5></h5>
-                <h5 className="text-justify">{t('detail#immigration')}</h5>
-                <h4>{t('general#immigration')}</h4>
+                <h5 className="title-name text-justify">{t('detail#immigration')}</h5>
+                <h4 className="title-name">{t('general#immigration')}</h4>
                     <li>{t('immigration-1')}</li>
                     <li>{t('immigration-2')}</li>
                     <li>{t('immigration-3')}</li>

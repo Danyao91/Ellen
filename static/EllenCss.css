@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-brand {
-    text-shadow: 3px 2px grey;
+    text-shadow: 3px 1px grey;
 }
 
 .nav-link {
@@ -21,4 +21,8 @@ body {
 
 .card-title {
     font: italic bold 20px/30px Georgia, serif;
+}
+
+.title-name {
+    font-family: "Times New Roman", Times, serif;
 }

@@ -13,12 +13,12 @@ const study = ({ t }) => (
             <div className="card">
             <img className="card-img-top" src="/static/study.jpeg" alt="Card image cap" height="300"/> 
               <div className="card-body">
-                <h4>{t('general#study')}</h4>
+                <h4 className="title-name">{t('general#study')}</h4>
                     <li>{t('study-1')}</li>
                     <li>{t('study-2')}</li>
                     <li>{t('study-3')}</li>
                     <h5></h5>
-                <h5>{t('school')}</h5>
+                <h5 className="title-name">{t('school')}</h5>
                 <li>{t('school-1')}</li>
                 </div>
                 </div>

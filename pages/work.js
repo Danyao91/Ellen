@@ -14,7 +14,7 @@ const work = ({ t }) => (
             <img className="card-img-top" src="/static/work.jpg" alt="Card image cap" height="300"/> 
               <div className="card-body">
                 <h5></h5>
-                <h4>{t('general#work')}</h4>
+                <h4 className="title-name">{t('general#work')}</h4>
                     <li>{t('work-1')}</li>
                     <li>{t('work-2')}</li>
                     <li>{t('work-3')}</li>
