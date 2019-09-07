@@ -1,7 +1,7 @@
 {
   "devFiles": [
-    "static/development/dll/dll_0b0bc16446b9b5ad32e8.js",
-    "static/development/dll/dll_0b0bc16446b9b5ad32e8.js.map"
+    "static/development/dll/dll_92fa9139568d8c3d8f78.js",
+    "static/development/dll/dll_92fa9139568d8c3d8f78.js.map"
   ],
   "pages": {
     "/": [
@@ -20,27 +20,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/immigration": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/other": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/study": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/visit": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/work": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
