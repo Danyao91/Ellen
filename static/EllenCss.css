@@ -1,14 +1,26 @@
 .nav-link {
     cursor: pointer;
 }
-body {
-    background: #2b5876;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
-    background: #fdfcfb;
+
+#main-top-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+}
+
+#main-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 700px;
 }
 
 .card {
-    background: #e4efe9;
+    background-color: rgba(255, 244, 244, 0.747);
+}
+
+.card-img-top {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .navbar-brand {
@@ -25,4 +37,8 @@ body {
 
 .title-name {
     font-family: "Times New Roman", Times, serif;
+}
+
+#main-footer {
+
 }
