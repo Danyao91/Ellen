@@ -1,0 +1,28 @@
+.nav-link {
+    cursor: pointer;
+}
+body {
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #fdfcfb;
+}
+
+.card {
+    background: #e4efe9;
+}
+
+.navbar-brand {
+    text-shadow: 3px 1px grey;
+}
+
+.nav-link {
+    color: white;
+}
+
+.card-title {
+    font: italic bold 20px/30px Georgia, serif;
+}
+
+.title-name {
+    font-family: "Times New Roman", Times, serif;
+}

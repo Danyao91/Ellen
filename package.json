@@ -1,8 +1,13 @@
 {
+  "name": "ellen",
+  "version": "1.0.0",
+  "description": "EllenVisa.com",
+  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",

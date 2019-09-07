@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import { i18n, withTranslation } from '../i18n'
 
 const Footer = ({ t }) => (
-  <div className= " p-3 mb-2 bg-light text-dark">
+  <div className= "p-3 mb-2 bg-light text-dark">
     <footer className="page-footer font-small grey pt-4">
 
       <div className="container text-center text-md-left">
@@ -26,7 +26,7 @@ const Footer = ({ t }) => (
 
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
+                <a href="#!">1509 merivale Road</a>
               </li>
             </ul>
 
@@ -51,9 +51,8 @@ const Footer = ({ t }) => (
 
       </div>
 
-      <div className="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-      </div>
+      {/* <div className="footer-copyright text-center py-3">© 2019 Copyright
+      </div> */}
 
     </footer>
   </div>
