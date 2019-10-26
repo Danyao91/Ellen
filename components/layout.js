@@ -21,7 +21,6 @@ const Layout = (props) => (
         <div className="container" id="main-container">
             {props.children}
         </div>
-        <Footer />
         <script src="../static/myscripts.js"/>
     </div>
 );
