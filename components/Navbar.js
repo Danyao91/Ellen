@@ -12,7 +12,7 @@ const Navbar = ({ t }) => (
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-                <Link href="/index"><a className="nav-link">{t('home')}</a></Link>
+                <Link href="/"><a className="nav-link">{t('home')}</a></Link>
                 <Link href="/visit"><a className="nav-link ">{t('visit-N')}</a></Link>
                 <Link href="/immigration"><a className="nav-link ">{t('immigration-N')}</a></Link>
                 <Link href="/work"><a className="nav-link ">{t('work-N')}</a></Link>
