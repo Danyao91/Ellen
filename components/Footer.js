@@ -18,7 +18,9 @@ const Footer = ({ t }) => (
             <h5 className="text-uppercase">{t('location')}</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#!">1509 merivale Road</a>
+                <div>1509 merivale Rd.</div>
+                <div>Ottawa, ON</div>
+                <div>CANADA, K2G 3J3</div>
               </li>
             </ul>
           </div>
