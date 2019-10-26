@@ -22,6 +22,7 @@ const Layout = (props) => (
             {props.children}
         </div>
         <Footer />
+        <script src="../static/myscripts.js"/>
     </div>
 );
 
