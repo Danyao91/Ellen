@@ -12,17 +12,15 @@ const Navbar = ({ t }) => (
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-                <Link href="/"><a className="nav-link">{t('home')}</a></Link>
+                <Link href="/index"><a className="nav-link">{t('home')}</a></Link>
                 <Link href="/visit"><a className="nav-link ">{t('visit-N')}</a></Link>
                 <Link href="/immigration"><a className="nav-link ">{t('immigration-N')}</a></Link>
                 <Link href="/work"><a className="nav-link ">{t('work-N')}</a></Link>
                 <Link href="/study"><a className="nav-link ">{t('study-N')}</a></Link>
                 <Link href="/other"><a className="nav-link ">{t('other-N')}</a></Link>
                 <Link href="/contactus"><a className="nav-link ">{t('contact')}</a></Link>
-                <li className="nav-item"
-                    onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'zh' : 'en')}
-                >
-                    <a className="nav-link">{t('change-locale')}</a>
+                <li className="nav-item">
+                    <a className="nav-link" onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'zh' : 'en')}>{t('change-locale')}</a>
                 </li>
             </div>
         </div>
