@@ -8,10 +8,10 @@
     z-index: 1071;
 }
 
-#main-container {
+div#main-container {
     padding-top: 30px;
     padding-bottom: 30px;
-    min-height: 700px;
+    min-height: 1400px; 
 }
 
 .card {
