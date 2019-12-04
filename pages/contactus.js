@@ -47,10 +47,10 @@ const contact = ({ t }) => (
                             <div className="col-sm-4">
                                 <h4 className='title-name navbar-brand'>{t('location')}:</h4>
                                 <h1></h1>
-                                <ul>1509 merivale Road, Ottawa</ul>
-                                <ul> Ontario, Canada, K2G 3J3</ul>
+                                <ul>Unit 110, 15 Capella Crt, Nepean</ul>
+                                <ul> Ontario, Canada, K2E 7X1</ul>
                                 <div id="map-container-google-12" className="map-container-7" style={{ height: 200 + 'px' }}>
-                                    <iframe src="https://maps.google.com/maps?q=1509%20merivale%20rd&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                                    <iframe src="https://maps.google.com/maps?q=15%20capella%20rd&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                                         style={{ border: 0, allowfullscreen: true }} ></iframe>
                                 </div>
                             </div>
